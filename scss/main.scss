@@ -45,4 +45,20 @@ body {
         transform: translate(-50%, -50%);
         text-align: center;
     }
+    .heading-primary {
+        color: $white-font-color;
+        text-transform: uppercase;
+    }
+    .heading-primary--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+    }
+    .heading-primary--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.5rem;
+    }
 }
