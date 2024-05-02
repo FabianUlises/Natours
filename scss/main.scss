@@ -68,15 +68,17 @@ body {
 }
 // End of header styles
 // Start of button styles
-.btn:link,
-.btn:visited {
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius: 10rem;
-    padding: 1.5rem 4rem;
-    transition: all 20ms;
-    position: relative;
+.btn {
+    &:link,
+    &:visited {
+        display: inline-block;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 10rem;
+        padding: 1.5rem 4rem;
+        transition: all 20ms;
+        position: relative;
+    }
     &::after {
         content: '';
         display: inline-block;
@@ -97,20 +99,20 @@ body {
         transform: translateY(-1px);
         box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     }
-}
-.btn-white {
-    background-color: $white-font-color;
-    color: $light-font-color;
-    &::after {
+    &--white {
         background-color: $white-font-color;
+        color: $light-font-color;
+        &::after {
+            background-color: $white-font-color;
+        }
+        &:hover::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
     }
-    &:hover::after {
-        transform: scaleX(1.4) scaleY(1.6);
-        opacity: 0;
+    &--animated {
+        animation: btnAnimation 650ms ease-in;
+        animation-fill-mode: backwards;
     }
-}
-.btn--animated {
-    animation: btnAnimation 650ms ease-in;
-    animation-fill-mode: backwards;
 }
 // End of button styles
