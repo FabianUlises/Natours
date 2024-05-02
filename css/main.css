@@ -62,7 +62,8 @@ body {
     text-align: center; }
   .header .heading-primary {
     color: #fff;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-block-end: 6rem; }
   .header .heading-primary--main {
     display: block;
     font-size: 6rem;
