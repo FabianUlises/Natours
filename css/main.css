@@ -84,7 +84,19 @@ body {
   text-decoration: none;
   border-radius: 10rem;
   padding: 1.5rem 4rem;
-  transition: all 20ms; }
+  transition: all 20ms;
+  position: relative; }
+  .btn:link::after,
+  .btn:visited::after {
+    content: '';
+    display: inline-block;
+    block-size: 100%;
+    inline-size: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; }
   .btn:link:hover,
   .btn:visited:hover {
     transform: translateY(-3px);
@@ -97,3 +109,5 @@ body {
 .btn-white {
   background-color: #fff;
   color: #777; }
+  .btn-white::after {
+    background-color: #fff; }
