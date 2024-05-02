@@ -1,0 +1,14 @@
+.header {
+  background-image: linear-gradient(to right bottom, rgba(92, 160, 85, 0.8), rgba(21, 106, 77, 0.8));
+  min-block-size: 95vh; }
+  .header__logo {
+    position: absolute;
+    top: 4rem;
+    left: 4rem; }
+  .header__content {
+    max-inline-size: fit-content;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
