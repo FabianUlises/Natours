@@ -1,3 +1,4 @@
+// Animation for header headings
 @keyframes moveInLeft {
     0% {
         opacity: 0;
@@ -22,5 +23,16 @@
     100% {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+// Animation for buttons
+@keyframes btnAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }

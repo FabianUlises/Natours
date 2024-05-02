@@ -24,6 +24,14 @@ Dark green: #28b485
     opacity: 1;
     transform: translateX(0); } }
 
+@keyframes btnAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
 * {
   padding: 0;
   margin: 0;
@@ -115,3 +123,7 @@ body {
   .btn-white:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0; }
+
+.btn-animated {
+  animation: btnAnimation 650ms ease-in;
+  animation-fill-mode: backwards; }

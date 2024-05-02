@@ -109,4 +109,8 @@ body {
         opacity: 0;
     }
 }
+.btn-animated {
+    animation: btnAnimation 650ms ease-in;
+    animation-fill-mode: backwards;;
+}
 // End of button styles
