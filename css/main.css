@@ -60,7 +60,7 @@ body {
     top: 4rem;
     left: 4rem; }
   .header .logo {
-    block-size: 7rem; }
+    block-size: 3.5rem; }
   .header__content {
     max-inline-size: fit-content;
     position: absolute;
