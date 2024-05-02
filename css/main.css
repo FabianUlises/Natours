@@ -83,3 +83,7 @@ body {
   text-decoration: none;
   border-radius: 2.7rem;
   padding: 1.5rem 4rem; }
+
+.btn-white {
+  background-color: #fff;
+  color: #777; }
