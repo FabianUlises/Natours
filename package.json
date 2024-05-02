@@ -15,5 +15,8 @@
     "url": "https://github.com/FabianUlises/Natours/issues"
   },
   "homepage": "https://github.com/FabianUlises/Natours#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
 }
