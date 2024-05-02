@@ -27,13 +27,16 @@ body {
     background-size: cover;
     min-block-size: 95vh;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
 
     &__logo {
         position: absolute;
         top: 4rem;
         left: 4rem;
     }
-
+    .logo {
+        block-size: 7rem;
+    }
     &__content {
         max-inline-size: fit-content;
         position: absolute;
