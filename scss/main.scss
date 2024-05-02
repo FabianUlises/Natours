@@ -18,7 +18,7 @@ body {
     color: $light-font-color;
     padding: 2.5rem;
 }
-// Header
+// Start of header styles
 .header {
     background-image: linear-gradient(
         to right bottom,
@@ -65,3 +65,15 @@ body {
         animation: moveInRight 350ms ease;
     }
 }
+// End of header styles
+// Start of button styles
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    background-color: rgba(71, 175, 113, 0.434);
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 2.7rem;
+    padding: 1.5rem 4rem;
+}
+// End of button styles

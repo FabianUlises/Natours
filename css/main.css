@@ -75,3 +75,12 @@ body {
     font-weight: 700;
     letter-spacing: 1.5rem;
     animation: moveInRight 350ms ease; }
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  background-color: rgba(71, 175, 113, 0.434);
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 2.7rem;
+  padding: 1.5rem 4rem; }
