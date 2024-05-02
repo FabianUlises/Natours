@@ -29,7 +29,6 @@ body {
     min-block-size: 95vh;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
-
     &__logo {
         position: absolute;
         top: 4rem;
@@ -72,6 +71,7 @@ body {
     &:link,
     &:visited {
         display: inline-block;
+        font-size: 1.6rem;
         text-transform: uppercase;
         text-decoration: none;
         border-radius: 10rem;
