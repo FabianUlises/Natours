@@ -87,6 +87,7 @@ body {
         top: 0;
         left: 0;
         z-index: -1;
+        transition: all 120ms;
     }
     &:hover {
         transform: translateY(-3px);
@@ -102,6 +103,10 @@ body {
     color: $light-font-color;
     &::after {
         background-color: $white-font-color;
+    }
+    &:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
     }
 }
 // End of button styles
