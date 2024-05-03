@@ -14,14 +14,3 @@
         margin-block-end: 8rem;
     }
 }
-.heading-secondary {
-    display: inline-block;
-    text-transform: uppercase;
-    font-size: 3.5rem;
-    font-weight: 700;
-    background-image: linear-gradient(to right, $light-background-green, $dark-background-green);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    letter-spacing: 3px;
-}
