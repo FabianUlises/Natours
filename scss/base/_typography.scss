@@ -38,3 +38,15 @@ body {
     color: transparent;
     letter-spacing: 3px;
 }
+.heading-tertiary {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.paragraph {
+    font-size: 1.6rem;
+
+    &:not(:last-child) {
+        margin-block-end: 3rem;
+    }
+}
