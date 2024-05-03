@@ -155,3 +155,7 @@ body {
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-block-end: 8rem; }
+
+.section-about .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); }
