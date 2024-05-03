@@ -138,3 +138,9 @@ body {
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-block-end: 8rem; }
+
+.heading-secondary {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: 700; }
