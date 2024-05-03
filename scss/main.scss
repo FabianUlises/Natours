@@ -26,15 +26,28 @@
         gap: 1rem;
     }
 }.col-1-of-2 {
-    background-color: orange;
+    // background-color: orange;
 }
 .composition {
     position: relative;;
     background-color: pink;
 
+    &:hover &__photo:not(:hover) {
+        transform: scale(.92);
+    }
+    
     &__photo {
         inline-size: 55%;
         position: absolute;
+        box-shadow: 0 1.5rem 4rem rgba(88, 88, 88, .5);
+        transition: all 150ms ease;
+        z-index: 10;
+        
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 2.5rem 4rem rgba(54, 54, 54, .5);
+            z-index: 20;
+        }
 
         &--p1 {
             top: -2rem;
