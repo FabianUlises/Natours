@@ -47,4 +47,30 @@
         animation-fill-mode: backwards;
     }
 }
+.btn-text {
+    &:link,
+    &:visited {
+        display: inline-block;;
+        font-size: 1.6rem;
+        color: $light-background-green;
+        text-decoration: none;
+        border-block-end: 1px solid $light-background-green;
+        padding: 3px;
+        transition: all 75ms;
+
+        &:hover {
+            background: $light-background-green;
+            color: $white-font-color;
+            box-shadow: 0 1rem 2rem #cccccc6e;
+            transform: translateY(-2px);
+        }
+
+        &:active {
+            box-shadow: 0 .5rem 1rem rgba(90, 90, 90, 0.3);
+            transform: translateY(0);
+        }
+
+    }
+}
+
 // End of button styles

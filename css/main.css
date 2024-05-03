@@ -142,6 +142,23 @@ body {
   animation: btnAnimation 650ms ease-in;
   animation-fill-mode: backwards; }
 
+.btn-text:link, .btn-text:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #7ed56f;
+  text-decoration: none;
+  border-block-end: 1px solid #7ed56f;
+  padding: 3px;
+  transition: all 75ms; }
+  .btn-text:link:hover, .btn-text:visited:hover {
+    background: #7ed56f;
+    color: #fff;
+    box-shadow: 0 1rem 2rem #cccccc6e;
+    transform: translateY(-2px); }
+  .btn-text:link:active, .btn-text:visited:active {
+    box-shadow: 0 0.5rem 1rem rgba(90, 90, 90, 0.3);
+    transform: translateY(0); }
+
 .header {
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 100, 131, 0.8)), url(/img/hero.jpg);
   background-size: cover;
@@ -169,6 +186,10 @@ body {
   .row:not(:last-child) {
     margin-block-end: 8rem; }
 
-.section-about .row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); }
+.section-about {
+  background: #eee;
+  padding: 25rem 0 45rem 0;
+  margin-top: -20rem; }
+  .section-about .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); }
