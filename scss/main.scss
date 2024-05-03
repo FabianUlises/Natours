@@ -2,6 +2,7 @@
 @import "base/variables";
 @import "base/typography";
 @import "base/animations";
+@import "components/button";
 // Start of header styles
 .header {
     background-image: linear-gradient(
@@ -32,53 +33,3 @@
 
 }
 // End of header styles
-// Start of button styles
-.btn {
-    &:link,
-    &:visited {
-        display: inline-block;
-        font-size: 1.6rem;
-        text-transform: uppercase;
-        text-decoration: none;
-        border-radius: 10rem;
-        padding: 1.5rem 4rem;
-        transition: all 20ms;
-        position: relative;
-    }
-    &::after {
-        content: '';
-        display: inline-block;
-        block-size: 100%;
-        inline-size: 100%;
-        border-radius: 10rem;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        transition: all 120ms;
-    }
-    &:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-    }
-    &:active {
-        transform: translateY(-1px);
-        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-    }
-    &--white {
-        background-color: $white-font-color;
-        color: $light-font-color;
-        &::after {
-            background-color: $white-font-color;
-        }
-        &:hover::after {
-            transform: scaleX(1.4) scaleY(1.6);
-            opacity: 0;
-        }
-    }
-    &--animated {
-        animation: btnAnimation 650ms ease-in;
-        animation-fill-mode: backwards;
-    }
-}
-// End of button styles

@@ -69,26 +69,6 @@ body {
     opacity: 1;
     transform: translateY(0); } }
 
-.header {
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 100, 131, 0.8)), url(/img/hero.jpg);
-  background-size: cover;
-  min-block-size: 95vh;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  position: relative; }
-  .header__logo {
-    position: absolute;
-    top: 4rem;
-    left: 4rem; }
-  .header .logo {
-    block-size: 3.5rem; }
-  .header__content {
-    max-inline-size: fit-content;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center; }
-
 .btn:link, .btn:visited {
   display: inline-block;
   font-size: 1.6rem;
@@ -131,3 +111,23 @@ body {
 .btn--animated {
   animation: btnAnimation 650ms ease-in;
   animation-fill-mode: backwards; }
+
+.header {
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 100, 131, 0.8)), url(/img/hero.jpg);
+  background-size: cover;
+  min-block-size: 95vh;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  position: relative; }
+  .header__logo {
+    position: absolute;
+    top: 4rem;
+    left: 4rem; }
+  .header .logo {
+    block-size: 3.5rem; }
+  .header__content {
+    max-inline-size: fit-content;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
