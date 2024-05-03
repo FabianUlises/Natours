@@ -29,25 +29,7 @@
         transform: translate(-50%, -50%);
         text-align: center;
     }
-    .heading-primary {
-        color: $white-font-color;
-        text-transform: uppercase;
-        margin-block-end: 6rem;
-    }
-    .heading-primary--main {
-        display: block;
-        font-size: 6rem;
-        font-weight: 400;
-        letter-spacing: 3.5rem;
-        animation: moveInLeft 350ms ease;
-    }
-    .heading-primary--sub {
-        display: block;
-        font-size: 2rem;
-        font-weight: 700;
-        letter-spacing: 1.5rem;
-        animation: moveInRight 350ms ease;
-    }
+
 }
 // End of header styles
 // Start of button styles
