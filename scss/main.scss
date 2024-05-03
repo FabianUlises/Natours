@@ -4,3 +4,12 @@
 @import "base/animations";
 @import "components/button";
 @import "layout/header";
+.row {
+    max-inline-size: 114rem;
+    background-color: #eee;
+    margin: 0 auto;
+
+    &:not(:last-child) {
+        margin-block-end: 8rem;
+    }
+}
