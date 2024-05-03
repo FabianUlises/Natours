@@ -28,3 +28,25 @@
 }.col-1-of-2 {
     background-color: orange;
 }
+.composition {
+    position: relative;;
+    background-color: pink;
+
+    &__photo {
+        inline-size: 55%;
+        position: absolute;
+
+        &--p1 {
+            top: -2rem;
+            left: 0;
+        }
+        &--p2 {
+            top: 2rem;
+            right: 0;
+        }
+        &--p3 {
+            top: 10rem;
+            left: 20%;
+        }
+    }
+}

@@ -201,3 +201,19 @@ body {
 
 .col-1-of-2 {
   background-color: orange; }
+
+.composition {
+  position: relative;
+  background-color: pink; }
+  .composition__photo {
+    inline-size: 55%;
+    position: absolute; }
+    .composition__photo--p1 {
+      top: -2rem;
+      left: 0; }
+    .composition__photo--p2 {
+      top: 2rem;
+      right: 0; }
+    .composition__photo--p3 {
+      top: 10rem;
+      left: 20%; }
