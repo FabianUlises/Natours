@@ -9,6 +9,10 @@ html {
 body {
   box-sizing: border-box; }
 
+img {
+  display: inline-block;
+  inline-size: 100%; }
+
 /* 
 Colors:
 Light green: #7ed56f
@@ -192,7 +196,7 @@ body {
   margin-top: -20rem; }
   .section-about .row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     gap: 1rem; }
 
 .col-1-of-2 {
