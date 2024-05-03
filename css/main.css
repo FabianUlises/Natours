@@ -200,19 +200,20 @@ body {
     gap: 1rem; }
 
 .composition {
-  position: relative;
-  background-color: pink; }
+  position: relative; }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.92); }
   .composition__photo {
     inline-size: 55%;
     position: absolute;
     box-shadow: 0 1.5rem 4rem rgba(88, 88, 88, 0.5);
+    outline-offset: 1rem;
     transition: all 150ms ease;
     z-index: 10; }
     .composition__photo:hover {
       transform: scale(1.05);
       box-shadow: 0 2.5rem 4rem rgba(54, 54, 54, 0.5);
+      outline: 1rem solid #7ed56f;
       z-index: 20; }
     .composition__photo--p1 {
       top: -2rem;
