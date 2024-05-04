@@ -1,0 +1,9 @@
+.row {
+    max-inline-size: 114rem;
+    background-color: $light-background-grey;
+    margin: 0 auto;
+
+    &:not(:last-child) {
+        margin-block-end: 8rem;
+    }
+}
