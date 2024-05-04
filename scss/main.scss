@@ -4,60 +4,7 @@
 @import "base/typography";
 @import "base/animations";
 @import "components/button";
+@import "components/composition";
+@import "layout/row";
 @import "layout/header";
-.row {
-    max-inline-size: 114rem;
-    background-color: $light-background-grey;
-    margin: 0 auto;
-
-    &:not(:last-child) {
-        margin-block-end: 8rem;
-    }
-}
-.section-about {
-    background: $light-background-grey;
-    padding: 25rem 0 45rem 0;
-    margin-top: -20rem;
-
-    &__row {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-        gap: 4rem;
-    }
-}
-.composition {
-    position: relative;;
-
-    &:hover &__photo:not(:hover) {
-        transform: scale(.92);
-    }
-    
-    &__photo {
-        inline-size: 55%;
-        position: absolute;
-        box-shadow: 0 1.5rem 4rem rgba(88, 88, 88, .5);
-        outline-offset: 1rem;
-        transition: all 150ms ease;
-        z-index: 10;
-        
-        &:hover {
-            transform: scale(1.05);
-            box-shadow: 0 2.5rem 4rem rgba(54, 54, 54, .5);
-            outline: 1rem solid $light-background-green;
-            z-index: 20;
-        }
-
-        &--p1 {
-            top: -2rem;
-            left: 0;
-        }
-        &--p2 {
-            top: 2rem;
-            right: 0;
-        }
-        &--p3 {
-            top: 10rem;
-            left: 20%;
-        }
-    }
-}
+@import "pages/home";
