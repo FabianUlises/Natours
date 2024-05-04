@@ -1,5 +1,5 @@
-@import "base/base";
 @import "base/variables";
+@import "base/base";
 @import "base/utilities";
 @import "base/typography";
 @import "base/animations";
@@ -8,3 +8,16 @@
 @import "layout/row";
 @import "layout/header";
 @import "pages/home";
+.section-features {
+    &__row {
+        
+    }
+    &__card {
+        background-color: rgba($white-font-color, 8);
+        font-size: 1.5rem;
+        padding: 2.5rem;
+        text-align: center;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba(60, 60, 60, .8);
+    }
+}
