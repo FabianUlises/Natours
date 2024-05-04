@@ -8,21 +8,3 @@
 @import "layout/row";
 @import "layout/header";
 @import "pages/home";
-.section-features {
-    &__row {
-        
-    }
-    &__card {
-        background-color: rgba($white-font-color, 8);
-        font-size: 1.5rem;
-        padding: 2.5rem;
-        text-align: center;
-        border-radius: 3px;
-        box-shadow: 0 1.5rem 4rem rgba(60, 60, 60, .8);
-        transition: transform 70ms;
-
-        &:hover {
-            transform: translateY(-1.5rem) scale(1.03);
-        }
-    }
-}
