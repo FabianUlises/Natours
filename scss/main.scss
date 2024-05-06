@@ -10,5 +10,17 @@
 @import "layout/header";
 @import "pages/home";
 .section-tours {
-    padding-block-start: 15rem;
+    padding-block-start: 20rem;
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-content: center;
+        justify-content: center;
+    }
+}
+.tours-card {
+    background-color: red;
+    inline-size: 30rem;
+    block-size: 45rem;
 }

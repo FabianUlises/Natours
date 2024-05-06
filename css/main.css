@@ -267,4 +267,15 @@ body {
       transform: translateY(-1.5rem) scale(1.03); }
 
 .section-tours {
-  padding-block-start: 15rem; }
+  padding-block-start: 20rem; }
+  .section-tours__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-content: center;
+    justify-content: center; }
+
+.tours-card {
+  background-color: red;
+  inline-size: 30rem;
+  block-size: 45rem; }
