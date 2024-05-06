@@ -20,7 +20,7 @@
     }
 }
 .tours-card {
-    color: white;
+    color: $light-font-color;
     inline-size: 30rem;
     block-size: 50rem;
     position: relative;
@@ -41,6 +41,10 @@
         }
         &--back {
             transform: rotateY(180deg);
+
+            &--1 {
+                background-image: linear-gradient(to right bottom, $dark-background-green, $light-background-green);
+            }
         }
     }
 
