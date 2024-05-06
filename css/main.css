@@ -284,5 +284,9 @@ body {
     background-color: blueviolet;
     height: 50rem;
     transition: all 750ms; }
+    .tours-card__side--front {
+      background-color: pink; }
+    .tours-card__side--back {
+      background-color: gold; }
   .tours-card:hover .tours-card__side {
     transform: rotateY(180deg); }

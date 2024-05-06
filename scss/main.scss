@@ -29,6 +29,13 @@
         background-color: blueviolet;
         height: 50rem;
         transition: all 750ms;
+
+        &--front {
+            background-color: pink;
+        }
+        &--back {
+            background-color: gold;
+        }
     }
 
     &:hover &__side{
