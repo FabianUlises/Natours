@@ -20,7 +20,18 @@
     }
 }
 .tours-card {
+    color: white;
     background-color: red;
     inline-size: 30rem;
-    block-size: 45rem;
+    block-size: 50rem;
+
+    &__side {
+        background-color: blueviolet;
+        height: 50rem;
+        transition: all 750ms;
+    }
+
+    &:hover &__side{
+        transform: rotateY(180deg);
+    }
 }

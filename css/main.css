@@ -276,6 +276,13 @@ body {
     justify-content: center; }
 
 .tours-card {
+  color: white;
   background-color: red;
   inline-size: 30rem;
-  block-size: 45rem; }
+  block-size: 50rem; }
+  .tours-card__side {
+    background-color: blueviolet;
+    height: 50rem;
+    transition: all 750ms; }
+  .tours-card:hover .tours-card__side {
+    transform: rotateY(180deg); }
