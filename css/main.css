@@ -265,3 +265,6 @@ body {
     transition: transform 70ms; }
     .section-features__card:hover {
       transform: translateY(-1.5rem) scale(1.03); }
+
+.section-tours {
+  padding-block-start: 15rem; }
