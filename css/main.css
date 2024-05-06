@@ -291,9 +291,8 @@ body {
     backface-visibility: hidden;
     transition: all 1.5s; }
     .tours-card__side--front {
-      background-color: pink; }
+      background-color: #fff; }
     .tours-card__side--back {
-      background-color: gold;
       transform: rotateY(180deg); }
   .tours-card:hover .tours-card__side--front {
     transform: rotateY(-180deg); }

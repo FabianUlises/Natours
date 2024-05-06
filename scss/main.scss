@@ -37,10 +37,9 @@
         transition: all 1.5s;
 
         &--front {
-            background-color: pink;
+            background-color: #fff;
         }
         &--back {
-            background-color: gold;
             transform: rotateY(180deg);
         }
     }
