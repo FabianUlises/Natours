@@ -54,4 +54,13 @@
     &:hover &__side--back{
         transform: rotateY(0);
     }
+
+    &__picture {
+        block-size: 20rem;
+        background-size: cover;
+        
+        &--1 {
+            background-image: url(../img/nat-5.jpg);
+        }
+    }
 }
