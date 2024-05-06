@@ -279,7 +279,8 @@ body {
   color: #777;
   inline-size: 30rem;
   block-size: 50rem;
-  position: relative; }
+  position: relative;
+  perspective: 150rem; }
   .tours-card__side {
     inline-sizE: 100%;
     block-size: 50rem;
