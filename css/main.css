@@ -277,25 +277,25 @@ body {
 
 .tours-card {
   color: white;
-  background-color: red;
   inline-size: 30rem;
   block-size: 50rem;
   position: relative; }
   .tours-card__side {
-    background-color: blueviolet;
-    block-size: 50rem;
     inline-sizE: 100%;
-    transition: all 750ms;
+    block-size: 50rem;
     position: absolute;
     top: 0;
     left: 0;
-    backface-visibility: hidden; }
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    backface-visibility: hidden;
+    transition: all 1.5s; }
     .tours-card__side--front {
       background-color: pink; }
     .tours-card__side--back {
       background-color: gold;
       transform: rotateY(180deg); }
   .tours-card:hover .tours-card__side--front {
-    transform: rotateY(180deg); }
+    transform: rotateY(-180deg); }
   .tours-card:hover .tours-card__side--back {
     transform: rotateY(0); }
