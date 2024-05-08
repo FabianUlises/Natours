@@ -44,7 +44,7 @@
             transform: rotateY(180deg);
 
             &--1 {
-                background-image: linear-gradient(to right bottom, $dark-background-green, $light-background-green);
+                background-image: linear-gradient(to right bottom, $tours-card-yellow, $tours-card-orange);
             }
         }
     }

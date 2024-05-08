@@ -1,8 +1,14 @@
 /* 
-Colors:
+Page colors:
 Light green: #7ed56f
 Medium green: #55c57a
 Dark green: #28b485
+
+Card gradients:
+yellow: #ffb900;
+orange: #ff7730;
+blue: #2998ff;
+purple: #5643fa;
 */
 * {
   padding: 0;
@@ -296,7 +302,7 @@ body {
     .tours-card__side--back {
       transform: rotateY(180deg); }
       .tours-card__side--back--1 {
-        background-image: linear-gradient(to right bottom, #28b485, #7ed56f); }
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
   .tours-card:hover .tours-card__side--front {
     transform: rotateY(-180deg); }
   .tours-card:hover .tours-card__side--back {
