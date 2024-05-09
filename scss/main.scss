@@ -85,11 +85,32 @@
             padding: 1rem 1.5rem;
             box-decoration-break: clone;
             -webkit-box-decoration-break: clone;
-            
+
             &--1 {
                 background-image: linear-gradient(to right bottom, rgba($tours-card-orange, .9), rgba($tours-card-yellow, .9));
             }
         }
 
+    }
+
+    &__details {
+        margin-block-start: 1rem;
+        
+        ul {
+            inline-size: 80%;
+            list-style: none;
+            margin: 0 auto;
+            
+            li {
+                text-align: center;
+                font-size: 1.5rem;
+                padding: 1rem;
+
+                &:not(:last-child) {
+                    border-block-end: 1px solid $light-background-grey;
+                }
+            }
+
+        }
     }
 }
