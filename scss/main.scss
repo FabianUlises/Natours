@@ -78,7 +78,18 @@
         text-align: right;
         color: $white-font-color;
         position: absolute;
-        top: 12rem;
+        top: 8rem;
         left:7rem;
+
+        &-span {
+            padding: 1rem 1.5rem;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+            
+            &--1 {
+                background-image: linear-gradient(to right bottom, rgba($tours-card-orange, .9), rgba($tours-card-yellow, .9));
+            }
+        }
+
     }
 }
