@@ -59,9 +59,10 @@
     &__picture {
         block-size: 20rem;
         background-size: cover;
+        background-blend-mode: screen;
         
         &--1 {
-            background-image: url(../img/nat-5.jpg);
+            background-image: linear-gradient(to right bottom, rgba($tours-card-orange, .3), rgba($tours-card-yellow, .3)), url(../img/nat-5.jpg);
         }
     }
 }
