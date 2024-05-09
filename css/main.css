@@ -317,3 +317,13 @@ body {
     border-top-right-radius: 3px; }
     .tours-card__picture--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 119, 48, 0.3), rgba(255, 185, 0, 0.3)), url(../img/nat-5.jpg); }
+  .tours-card__heading {
+    inline-size: 75%;
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    top: 12rem;
+    left: 7rem; }
