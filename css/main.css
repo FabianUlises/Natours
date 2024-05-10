@@ -352,3 +352,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+  .tours-card__price-box {
+    text-align: center;
+    color: #fff;
+    margin-block-end: 4rem; }
+  .tours-card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase; }
+  .tours-card__price-value {
+    font-size: 6rem;
+    font-weight: 400; }
