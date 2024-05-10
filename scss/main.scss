@@ -46,6 +46,10 @@
             &--1 {
                 background-image: linear-gradient(to right bottom, $tours-card-yellow, $tours-card-orange);
             }
+
+            &--2 {
+                background-image: linear-gradient(to right bottom, $tours-card-blue, $tours-card-purple);
+            }
         }
     }
 
@@ -92,6 +96,9 @@
 
             &--1 {
                 background-image: linear-gradient(to right bottom, rgba($tours-card-orange, .9), rgba($tours-card-yellow, .9));
+            }
+            &--3 {
+
             }
         }
 
