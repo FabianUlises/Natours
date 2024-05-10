@@ -337,6 +337,8 @@ body {
       -webkit-box-decoration-break: clone; }
       .tours-card__heading-span--1 {
         background-image: linear-gradient(to right bottom, rgba(255, 119, 48, 0.9), rgba(255, 185, 0, 0.9)); }
+      .tours-card__heading-span--2 {
+        background-image: linear-gradient(to right bottom, rgba(86, 67, 250, 0.9), rgba(41, 152, 255, 0.9)); }
   .tours-card__details {
     margin-block-start: 1rem; }
     .tours-card__details ul {
