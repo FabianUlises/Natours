@@ -69,6 +69,10 @@
             background-image: linear-gradient(to right bottom, rgba($tours-card-orange, .3), rgba($tours-card-yellow, .3)), url(../img/nat-5.jpg);
         }
 
+        &--2 {
+            background-image: linear-gradient(to right bottom, rgba($tours-card-blue, .3), rgba($tours-card-purple, .3)), url(../img/nat-6.jpg);
+        }
+
     }
     &__heading {
         inline-size: 75%;
