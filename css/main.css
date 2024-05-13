@@ -151,6 +151,15 @@ body {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0; }
 
+.btn--green {
+  background-color: #28b485;
+  color: #fff; }
+  .btn--green::after {
+    background-color: #28b485; }
+  .btn--green:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+
 .btn--animated {
   animation: btnAnimation 650ms ease-in;
   animation-fill-mode: backwards; }

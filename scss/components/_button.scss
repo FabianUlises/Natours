@@ -42,6 +42,17 @@
             opacity: 0;
         }
     }
+    &--green {
+        background-color: $dark-background-green;
+        color: $white-font-color;
+        &::after {
+            background-color: $dark-background-green;
+        }
+        &:hover::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
     &--animated {
         animation: btnAnimation 650ms ease-in;
         animation-fill-mode: backwards;
