@@ -408,6 +408,9 @@ img {
   .story:hover .story__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }
+  .story:hover .story__img {
+    transform: scale(1);
+    filter: blur(2px) brightness(45%); }
   .story__shape {
     inline-size: 15rem;
     block-size: 15rem;
@@ -419,7 +422,7 @@ img {
   .story__img {
     block-size: 100%;
     transform: scale(1.4);
-    transition: all 250ms ease; }
+    transition: all 375ms ease; }
   .story__text {
     transform: skew(12deg); }
   .story__caption {
@@ -432,4 +435,4 @@ img {
     font-size: 1.7rem;
     text-align: center;
     opacity: 0;
-    transition: all 250ms ease; }
+    transition: all 375ms ease; }
