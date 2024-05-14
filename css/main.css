@@ -390,3 +390,17 @@ img {
   .tours-card__price-value {
     font-size: 6rem;
     font-weight: 400; }
+
+.section-stories {
+  padding: 15rem 0; }
+
+.story {
+  max-inline-size: 75%;
+  font-size: 1.6rem;
+  background-color: #fff;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  margin: 0 auto;
+  padding: 6rem;
+  padding-block-start: 9rem;
+  padding-block-end: 11rem; }
