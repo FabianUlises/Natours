@@ -405,6 +405,9 @@ img {
   padding-block-start: 9rem;
   padding-block-end: 11rem;
   transform: skewX(-12deg); }
+  .story:hover .story__caption {
+    opacity: 1;
+    transform: translate(-50%, -50%); }
   .story__shape {
     inline-size: 15rem;
     block-size: 15rem;

@@ -179,6 +179,11 @@ img {
     padding-block-end: 11rem;
     transform: skewX(-12deg);
 
+    &:hover &__caption {
+        opacity:1;
+        transform: translate(-50%, -50%);
+    }
+
     &__shape {
         inline-size: 15rem;
         block-size: 15rem;
