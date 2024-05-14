@@ -177,4 +177,16 @@ img {
     padding: 6rem;
     padding-block-start: 9rem;
     padding-block-end: 11rem;
+
+    &__shape {
+        inline-size: 15rem;
+        block-size: 15rem;
+        float: left;
+        shape-outside: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+    }
+
+    &__img {
+        block-size: 100%;
+    }
 }
