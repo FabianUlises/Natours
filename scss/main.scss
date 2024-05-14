@@ -177,6 +177,7 @@ img {
     padding: 6rem;
     padding-block-start: 9rem;
     padding-block-end: 11rem;
+    transform: skewX(-12deg);
 
     &__shape {
         inline-size: 15rem;
@@ -184,9 +185,24 @@ img {
         float: left;
         shape-outside: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
+        transform: translateX(-3rem) skewX(12deg);
+        position: relative;
     }
 
     &__img {
         block-size: 100%;
+    }
+
+    &__text {
+        transform: skew(12deg);
+    }
+
+    &__caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        color: red;
+
     }
 }
