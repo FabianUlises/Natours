@@ -9,6 +9,10 @@
 @import "layout/row";
 @import "layout/header";
 @import "pages/home";
+img {
+    display: inline-block;
+    max-inline-size: 100%;
+}
 .section-tours {
     padding-block-start: 20rem;
     &__row {
@@ -159,4 +163,7 @@
         font-size: 6rem;
         font-weight: 400;
     }
+}
+.section-stories {
+    
 }

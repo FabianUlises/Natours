@@ -284,6 +284,10 @@ body {
     .section-features__card:hover {
       transform: translateY(-1.5rem) scale(1.03); }
 
+img {
+  display: inline-block;
+  max-inline-size: 100%; }
+
 .section-tours {
   padding-block-start: 20rem; }
   .section-tours__row {
