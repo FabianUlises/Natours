@@ -181,6 +181,8 @@ img {
     border-radius: 3px;
     margin: 0 auto;
     padding: 6rem;
+    padding-block-end: 2rem;
+    padding-block-start: 2rem;
     transform: skewX(-12deg);
 
     &:hover &__caption {
@@ -211,6 +213,7 @@ img {
 
     &__text {
         transform: skew(12deg);
+        margin-block-start: 1rem;
     }
 
     &__caption {
