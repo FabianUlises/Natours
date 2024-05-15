@@ -396,6 +396,10 @@ img {
 
 .section-stories {
   padding: 2rem 0; }
+  .section-stories .row {
+    background-color: #fff;
+    display: grid;
+    gap: 10rem; }
 
 .story {
   max-inline-size: 75%;
