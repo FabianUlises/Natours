@@ -54,3 +54,12 @@
         justify-content: center;
     }
 }
+.section-stories {
+    padding: 2rem 0;
+
+    .row {
+        background-color: $white-font-color;
+        display: grid;
+        gap: 10rem;
+    }
+}
