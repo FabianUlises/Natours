@@ -364,6 +364,9 @@ body {
     opacity: 0;
     transition: all 375ms ease; }
 
+.form__group:not(:last-child) {
+  margin-block-end: 2rem; }
+
 .form__input {
   display: block;
   inline-size: 75%;
@@ -373,13 +376,26 @@ body {
   padding: 1.5rem 2rem;
   border: none;
   border-block-end: 3px solid transparent; }
+  .form__input::-webkit-input-placeholder {
+    color: #999; }
+  .form__input:focus {
+    outline: none;
+    border-block-end: 3px solid #28b485;
+    box-shadow: 3px solid #28b485; }
+  .form__input:focus:invalid {
+    border-block-end: 3px solid red; }
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem); }
 
 .form__label {
   display: block;
   font-size: 1.2rem;
   font-weight: 700;
   margin-inline-start: 2rem;
-  margin-block-start: .7rem;
+  margin-block-start: .2rem;
   opacity: 1;
   transition: all 250ms; }
 
