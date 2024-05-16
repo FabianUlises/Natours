@@ -1,0 +1,23 @@
+.form {
+
+    &__input {
+        display: block;
+        inline-size: 75%;
+        color: inherit;
+        background-color: rgba(255, 255, 255, .5);
+        border-radius: 2px;
+        padding: 1.5rem 2rem;;
+        border: none;
+        border-block-end: 3px solid transparent;
+    }
+
+    &__label {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-inline-start: 2rem;
+        margin-block-start: .7rem;
+        opacity: 1;
+        transition: all 250ms;
+    }
+}
