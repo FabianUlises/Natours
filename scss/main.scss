@@ -27,7 +27,7 @@
 
     &__navigation {
         display: inlint-block;
-        border-block-starT: 1px solid $light-font-color;
+        border-block-start: 1px solid $light-font-color;
         padding-block-start: 2rem;
     }
     
@@ -43,13 +43,20 @@
         }
     }
     &__link {
+
         &:link,
         &:visited {
             display: inline-block;
             color: $light-font-color;
             text-decoration: none;
             text-transform: uppercase;
+            border-block-end: 1px solid transparent;
+        }
+
+        &:hover,
+        &:active {
+            color: $dark-background-green;
+            border-block-end: 1px solid $dark-background-green;
         }
     }
-
 }
