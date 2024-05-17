@@ -421,6 +421,22 @@ body {
   position: absolute;
   top: 0;
   left: 0; }
+  .form__radio-button::after {
+    content: '';
+    display: block;
+    background-color: #28b485;
+    block-size: 100%;
+    inline-size: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 20ms; }
+
+.form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
+  opacity: 1; }
 
 .row {
   max-inline-size: 114rem;

@@ -70,6 +70,24 @@
         position: absolute;
         top: 0;
         left: 0;
+
+        &::after {
+            content: '';
+            display: block;
+            background-color: $dark-background-green;
+            block-size: 100%;
+            inline-size: 100%;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 20ms;
+        }
+    }
+    &__radio-input:checked ~ &__radio-label &__radio-button::after {
+        opacity: 1;
     }
 
 }
