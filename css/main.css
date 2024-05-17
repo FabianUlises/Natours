@@ -551,6 +551,7 @@ body {
     gap: 10rem; }
 
 .section-book {
+  background-image: linear-gradient(to top right, #28b485, #7ed56f);
   padding: 9rem 0; }
 
 .book {

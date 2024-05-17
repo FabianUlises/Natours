@@ -64,8 +64,9 @@
     }
 }
 .section-book {
+    background-image: linear-gradient(to top right, $dark-background-green, $light-background-green);
     padding: 9rem 0;
-    // background-image: linear-gradient(orange, blue);
+    
 }
 .book {
     block-size: 50rem;
