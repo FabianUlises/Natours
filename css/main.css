@@ -465,6 +465,41 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+.footer {
+  background-color: #eee;
+  padding: 10rem 0; }
+  .footer__row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); }
+  .footer__col {
+    border-block-start: 1px solid #777; }
+  .footer__logo-box {
+    text-align: center; }
+  .footer__logo {
+    inline-size: 15rem;
+    block-size: auto; }
+  .footer__navigation {
+    display: inlint-block;
+    text-align: center;
+    padding-block-start: 2rem; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-inline-end: 1.5rem; }
+  .footer__link:link, .footer__link:visited {
+    display: inline-block;
+    color: #777;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-block-end: 1px solid transparent; }
+  .footer__link:hover, .footer__link:active {
+    color: #28b485;
+    border-block-end: 1px solid #28b485; }
+  .footer__copyright {
+    margin-block-start: 2rem; }
+
 .section-about {
   background: #eee;
   padding: 25rem 2rem 30rem 2rem;
@@ -529,38 +564,3 @@ body {
   .book__form {
     inline-size: 50%;
     padding: 6rem; }
-
-.footer {
-  background-color: #eee;
-  padding: 10rem 0; }
-  .footer__row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); }
-  .footer__col {
-    border-block-start: 1px solid #777; }
-  .footer__logo-box {
-    text-align: center; }
-  .footer__logo {
-    inline-size: 15rem;
-    block-size: auto; }
-  .footer__navigation {
-    display: inlint-block;
-    text-align: center;
-    padding-block-start: 2rem; }
-  .footer__list {
-    list-style: none; }
-  .footer__item {
-    display: inline-block; }
-    .footer__item:not(:last-child) {
-      margin-inline-end: 1.5rem; }
-  .footer__link:link, .footer__link:visited {
-    display: inline-block;
-    color: #777;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-block-end: 1px solid transparent; }
-  .footer__link:hover, .footer__link:active {
-    color: #28b485;
-    border-block-end: 1px solid #28b485; }
-  .footer__copyright {
-    margin-block-start: 2rem; }
