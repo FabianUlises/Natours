@@ -533,6 +533,11 @@ body {
 .footer {
   background-color: #eee;
   padding: 10rem 0; }
+  .footer__row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); }
+  .footer__col {
+    border-block-start: 1px solid #777; }
   .footer__logo-box {
     text-align: center; }
   .footer__logo {
@@ -540,7 +545,7 @@ body {
     block-size: auto; }
   .footer__navigation {
     display: inlint-block;
-    border-block-start: 1px solid #777;
+    text-align: center;
     padding-block-start: 2rem; }
   .footer__list {
     list-style: none; }
@@ -557,3 +562,5 @@ body {
   .footer__link:hover, .footer__link:active {
     color: #28b485;
     border-block-end: 1px solid #28b485; }
+  .footer__copyright {
+    margin-block-start: 2rem; }
