@@ -12,3 +12,44 @@
 @import "layout/row";
 @import "layout/header";
 @import "pages/home";
+.footer {
+    background-color: $light-background-grey;
+    padding: 10rem 0;
+
+    &__logo-box {
+        text-align: center;
+    }
+
+    &__logo {
+        inline-size: 15rem;
+        block-size: auto;
+    }
+
+    &__navigation {
+        display: inlint-block;
+        border-block-starT: 1px solid $light-font-color;
+        padding-block-start: 2rem;
+    }
+    
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline-block;
+
+        &:not(:last-child) {
+            margin-inline-end: 1.5rem;
+        }
+    }
+    &__link {
+        &:link,
+        &:visited {
+            display: inline-block;
+            color: $light-font-color;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+
+}

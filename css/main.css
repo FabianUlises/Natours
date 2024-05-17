@@ -529,3 +529,27 @@ body {
   .book__form {
     inline-size: 50%;
     padding: 6rem; }
+
+.footer {
+  background-color: #eee;
+  padding: 10rem 0; }
+  .footer__logo-box {
+    text-align: center; }
+  .footer__logo {
+    inline-size: 15rem;
+    block-size: auto; }
+  .footer__navigation {
+    display: inlint-block;
+    border-block-starT: 1px solid #777;
+    padding-block-start: 2rem; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-inline-end: 1.5rem; }
+  .footer__link:link, .footer__link:visited {
+    display: inline-block;
+    color: #777;
+    text-decoration: none;
+    text-transform: uppercase; }
