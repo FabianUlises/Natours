@@ -634,4 +634,15 @@ body {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
   text-align: center;
   z-index: 2000;
-  cursor: pointer; }
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .navigation__button .bar {
+    background-color: #fff;
+    block-size: .5rem;
+    inline-size: 4rem;
+    transform: scale(0.92); }
+    .navigation__button .bar:not(:last-child) {
+      margin-block-end: .4rem; }
