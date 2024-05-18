@@ -13,3 +13,13 @@
 @import "layout/header";
 @import "layout/footer";
 @import "pages/home";
+.popup {
+    block-size: 100vh;
+    inline-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 9999;
+
+}
