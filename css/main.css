@@ -639,10 +639,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  .navigation__button:hover .bar {
+    transform: scale(1); }
   .navigation__button .bar {
     background-color: #fff;
     block-size: .5rem;
     inline-size: 4rem;
-    transform: scale(0.92); }
+    transform: scale(0.92);
+    transition: all 150ms ease; }
     .navigation__button .bar:not(:last-child) {
       margin-block-end: .4rem; }
