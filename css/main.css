@@ -222,7 +222,7 @@ body {
     display: inline-block;
     background-image: linear-gradient(to right, rgba(92, 160, 85, 0.8));
     background-clip: text;
-    color: transparent;
+    color: #28b485;
     font-size: 6rem;
     margin-block-end: .5rem; }
 

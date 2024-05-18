@@ -15,7 +15,7 @@
             display: inline-block;
             background-image: linear-gradient(to right, rgba(92, 160, 85, .8));
             background-clip: text;
-            color: transparent;
+            color: $dark-background-green;
             font-size: 6rem;
             margin-block-end: .5rem;
         }
