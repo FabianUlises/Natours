@@ -552,7 +552,8 @@ body {
 
 .section-book {
   background-image: linear-gradient(to top right, #28b485, #7ed56f);
-  padding: 9rem 0; }
+  padding: 9rem 0;
+  margin-block-start: 10rem; }
 
 .book {
   block-size: 50rem;
