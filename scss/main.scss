@@ -14,3 +14,24 @@
 @import "layout/header";
 @import "layout/footer";
 @import "pages/home";
+.navigation {
+
+    &__checkbox {
+        display: none;
+    }
+
+    &__button {
+        background-color: $dark-background-green;
+        color: $white-font-color;
+        block-size: 7rem;
+        inline-size: 7rem;
+        position: fixed;
+        top: 6rem;
+        right: 6rem;
+        border-radius: 50%;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, .2);
+        text-align: center;
+        z-index: 2000;
+        cursor: pointer;
+    }
+}
