@@ -638,7 +638,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  display: none; }
   .navigation__button:hover .bar {
     transform: scale(1); }
   .navigation__button .bar {
@@ -649,3 +650,13 @@ body {
     transition: all 150ms ease; }
     .navigation__button .bar:not(:last-child) {
       margin-block-end: .4rem; }
+
+.navigation__background {
+  block-size: 6rem;
+  inline-size: 6rem;
+  background-image: radial-gradient(#28b485, #7ed56f);
+  border-radius: 50%;
+  position: fixed;
+  top: 6.5rem;
+  right: 6.5rem;
+  z-index: 1000; }
