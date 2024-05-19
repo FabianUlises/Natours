@@ -659,17 +659,19 @@ body {
   top: 6.5rem;
   right: 6.5rem;
   z-index: 1000;
-  transform: scale(80); }
+  transition: all 250ms; }
 
 .navigation__nav {
   block-size: 100vh;
-  inline-size: 100%;
+  inline-size: 0%;
   position: fixed;
   top: 0;
-  left: 0;
-  z-index: 1500; }
+  left: -20rem;
+  z-index: 1500;
+  opacity: 0; }
 
 .navigation__list {
+  inline-size: 100%;
   list-style: none;
   text-align: center;
   position: absolute;
@@ -697,3 +699,11 @@ body {
   background-position: 100%;
   color: #28b485;
   transform: translateX(-4px); }
+
+.navigation__checkbox:checked ~ .navigation__background {
+  transform: scale(80); }
+
+.navigation__checkbox:checked ~ .navigation__nav {
+  opacity: 1;
+  inline-size: 100%;
+  left: 0; }
