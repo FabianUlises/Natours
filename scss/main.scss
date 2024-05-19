@@ -125,4 +125,26 @@
         inline-size: 100%;
         left: 0;
     }
+
+    &__checkbox:checked ~ &__button {
+        .bar {
+            margin-block-start: 3rem;    
+        }
+
+        #bar1 {
+            position: absolute;
+            top: 0;
+            transform: rotate(135deg);
+        }
+
+        #bar2 {
+            opacity: 0;
+        }
+
+        #bar3 {
+            position: absolute;
+            top: 0;
+            transform: rotate(-135deg);
+        }
+    }
 }

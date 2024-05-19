@@ -707,3 +707,19 @@ body {
   opacity: 1;
   inline-size: 100%;
   left: 0; }
+
+.navigation__checkbox:checked ~ .navigation__button .bar {
+  margin-block-start: 3rem; }
+
+.navigation__checkbox:checked ~ .navigation__button #bar1 {
+  position: absolute;
+  top: 0;
+  transform: rotate(135deg); }
+
+.navigation__checkbox:checked ~ .navigation__button #bar2 {
+  opacity: 0; }
+
+.navigation__checkbox:checked ~ .navigation__button #bar3 {
+  position: absolute;
+  top: 0;
+  transform: rotate(-135deg); }
