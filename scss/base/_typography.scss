@@ -11,13 +11,19 @@ body {
     color: $white-font-color;
     text-transform: uppercase;
     margin-block-end: 6rem;
+    
+    
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+        animation: moveInLeft 350ms ease;
 
-     &--main {
-            display: block;
-            font-size: 6rem;
-            font-weight: 400;
-            letter-spacing: 3.5rem;
-            animation: moveInLeft 350ms ease;
+        @include respond(phone) {
+            letter-spacing: 1rem;
+            font-size: 5rem;
+        }
     }
     &--sub {
             display: block;
@@ -25,6 +31,11 @@ body {
             font-weight: 700;
             letter-spacing: 1.5rem;
             animation: moveInRight 350ms ease;
+
+            @include respond(phone) {
+                letter-spacing: 1rem;
+                font-size: 3rem;
+            }
     }
 }
 .heading-secondary {
@@ -37,6 +48,14 @@ body {
     -webkit-background-clip: text;
     color: transparent;
     letter-spacing: 3px;
+
+    @include respond(tab-port) {
+        font-size: 3rem;
+    }
+
+    @include respond(phone) {
+        font-size: 2.5rem;
+    }
 }
 .heading-tertiary {
     font-size: 1.6rem;
