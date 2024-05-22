@@ -582,6 +582,8 @@ body {
   .section-about__row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    justify-content: center;
+    align-items: center;
     column-gap: 4rem;
     row-gap: 10rem; }
     .section-about__row .text-col {
