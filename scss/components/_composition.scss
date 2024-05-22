@@ -1,5 +1,10 @@
 .composition {
-    position: relative;;
+    position: relative;
+
+    @include respond(phone) {
+        inline-size: 80%;
+        margin: 0 auto;
+    }
 
     &:hover &__photo:not(:hover) {
         transform: scale(.92);

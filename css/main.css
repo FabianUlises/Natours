@@ -206,6 +206,10 @@ body {
 
 .composition {
   position: relative; }
+  @media (max-width: 37.5em) {
+    .composition {
+      inline-size: 80%;
+      margin: 0 auto; } }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.92); }
   .composition__photo {
