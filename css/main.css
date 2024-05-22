@@ -582,10 +582,12 @@ body {
   .section-about__row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    justify-content: center;
-    align-items: center;
     column-gap: 4rem;
     row-gap: 10rem; }
+    @media (max-width: 56.25em) {
+      .section-about__row {
+        justify-content: center;
+        align-items: center; } }
     .section-about__row .text-col {
       max-inline-size: 50rem; }
       @media (max-width: 56.25em) {
