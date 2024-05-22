@@ -7,6 +7,13 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
         gap: 4rem;
+
+        .col {
+            // max-inline-size: 50%;
+        }
+        .text-col {
+            max-inline-size: 50rem;
+        }
     }
 }
 .section-features {
