@@ -36,6 +36,10 @@
     transform: skewY(-7deg);
     padding: 20rem 4rem;
     margin-block-start: -12rem;
+
+    @include respond(phone) {
+        padding-inline: 0;
+    }
     
     & > * {
         transform: skewY(7deg);

@@ -621,6 +621,9 @@ body {
   transform: skewY(-7deg);
   padding: 20rem 4rem;
   margin-block-start: -12rem; }
+  @media (max-width: 37.5em) {
+    .section-features {
+      padding-inline: 0; } }
   .section-features > * {
     transform: skewY(7deg); }
   .section-features__row {
