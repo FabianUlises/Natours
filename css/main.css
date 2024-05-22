@@ -523,6 +523,9 @@ body {
   min-block-size: 95vh;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative; }
+  @media (max-width: 56.25em) {
+    .header {
+      clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%); } }
   .header__logo {
     position: absolute;
     top: 4rem;

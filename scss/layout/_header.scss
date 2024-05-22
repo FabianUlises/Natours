@@ -9,6 +9,11 @@
     min-block-size: 95vh;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
+
+    @include respond(tab-port) {
+        clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    }
+
     &__logo {
         position: absolute;
         top: 4rem;
