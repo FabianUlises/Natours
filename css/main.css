@@ -239,7 +239,7 @@ body {
       right: 0; }
       @media (max-width: 56.25em) {
         .composition__photo--p2 {
-          top: -20px;
+          top: -8px;
           right: 1rem; } }
     .composition__photo--p3 {
       top: 10rem;
