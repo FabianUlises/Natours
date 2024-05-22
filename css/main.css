@@ -437,6 +437,9 @@ body {
   padding: 1.5rem 2rem;
   border: none;
   border-block-end: 3px solid transparent; }
+  @media (max-width: 56.25em) {
+    .form__input {
+      padding: .2rem .4rem; } }
   .form__input::-webkit-input-placeholder {
     color: #999; }
   .form__input:focus {
@@ -461,8 +464,17 @@ body {
   transition: all 250ms; }
 
 .form__radio-group {
-  width: 49%;
+  inline-size: 49%;
   display: inline-block; }
+  @media (max-width: 56.25em) {
+    .form__radio-group {
+      display: block;
+      inline-size: 100%; }
+      .form__radio-group:not(:last-child) {
+        margin-block-end: 1rem; } }
+  @media (max-width: 37.5em) {
+    .form__radio-group:not(:last-child) {
+      margin-block-end: .2rem; } }
 
 .form__radio-label {
   font-size: 1.6rem;
@@ -696,6 +708,9 @@ body {
   .book__form {
     inline-size: 50%;
     padding: 6rem; }
+    @media (max-width: 56.25em) {
+      .book__form {
+        padding: 1rem; } }
 
 .navigation__checkbox {
   display: none; }

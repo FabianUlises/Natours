@@ -14,6 +14,10 @@
         border: none;
         border-block-end: 3px solid transparent;
 
+        @include respond(tab-port) {
+            padding: .2rem .4rem;
+        }
+
         &::-webkit-input-placeholder {
             color: #999;
         }
@@ -46,8 +50,22 @@
     }
 
     &__radio-group {
-        width: 49%;
+        inline-size: 49%;
         display: inline-block;
+
+        @include respond(tab-port) {
+            display: block;
+            inline-size: 100%;
+            
+            &:not(:last-child) {
+                margin-block-end: 1rem;
+            }
+        }
+        @include respond(phone) {
+            &:not(:last-child) {
+                margin-block-end: .2rem;
+            }
+        }
     }
 
     &__radio-label {
