@@ -6,13 +6,19 @@
     &__row {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-        gap: 4rem;
+        column-gap: 4rem;
+        row-gap:  10rem;
 
         .col {
             // max-inline-size: 50%;
         }
         .text-col {
             max-inline-size: 50rem;
+
+            @include respond(tab-port) {
+                text-align: center;
+                margin: 0 auto;
+            }
         }
     }
 }
