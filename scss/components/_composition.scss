@@ -12,6 +12,10 @@
         outline-offset: 1rem;
         transition: all 150ms ease;
         z-index: 10;
+
+        @include respond(tab-port) {
+            inline-size: 33%
+        }
         
         &:hover {
             transform: scale(1.05);
@@ -23,14 +27,30 @@
         &--p1 {
             top: -2rem;
             left: 0;
+            
+            @include respond(tab-port) {
+                top: -2PX;
+                transform: scale(.98);
+            }
         }
         &--p2 {
             top: 2rem;
             right: 0;
+
+            @include respond(tab-port) {
+                top: -20px;
+                right: 1rem;
+            }
         }
         &--p3 {
             top: 10rem;
             left: 20%;
+
+            @include respond(tab-port) {
+                top: 2px;
+                left: 33%;
+                transform: scale(1.1);
+            }
         }
     }
 }

@@ -215,6 +215,9 @@ body {
     outline-offset: 1rem;
     transition: all 150ms ease;
     z-index: 10; }
+    @media (max-width: 56.25em) {
+      .composition__photo {
+        inline-size: 33%; } }
     .composition__photo:hover {
       transform: scale(1.05);
       box-shadow: 0 2.5rem 4rem rgba(54, 54, 54, 0.5);
@@ -223,12 +226,25 @@ body {
     .composition__photo--p1 {
       top: -2rem;
       left: 0; }
+      @media (max-width: 56.25em) {
+        .composition__photo--p1 {
+          top: -2PX;
+          transform: scale(0.98); } }
     .composition__photo--p2 {
       top: 2rem;
       right: 0; }
+      @media (max-width: 56.25em) {
+        .composition__photo--p2 {
+          top: -20px;
+          right: 1rem; } }
     .composition__photo--p3 {
       top: 10rem;
       left: 20%; }
+      @media (max-width: 56.25em) {
+        .composition__photo--p3 {
+          top: 2px;
+          left: 33%;
+          transform: scale(1.1); } }
 
 .section-features__card .feature-content {
   font-size: 1.5rem;
