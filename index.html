@@ -379,7 +379,11 @@
         <footer class="footer">
             <!-- Start of footer logo -->
             <div class="footer__logo-box u-m-b-l">
-                <img src="img/logo-green-2x.png" alt="Site logo" class="footer__logo">
+                <picture class="footer__logo">
+                    <source srcset="img/logo-green-small-1x.jpg 1x, img/logo-green-small-2x 2x"
+                        media="(max-width: 37.5em)">
+                    <img srcset="img/logo-green-1x.png 1x img/logo-green-2x 2x" alt="Site logo" class="footer__logo">
+                </picture>
             </div>
             <!-- End of footer logo -->
             <!-- Start of footer row -->
