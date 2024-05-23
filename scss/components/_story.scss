@@ -11,7 +11,7 @@
     transform: skewX(-12deg);
 
     @include respond (phone) {
-        padding: 1rem;
+        padding: 4rem;
     }
     &:hover &__caption {
         opacity:1;
