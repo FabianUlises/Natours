@@ -6,6 +6,12 @@
     &__row {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+        @include respond(tab-port) {
+            grid-template-columns: 1fr;
+            text-align: center;
+            font-size: 1.5rem;
+        }
     }
     &__col {
         border-block-start: 1px solid $light-font-color;
