@@ -11,13 +11,15 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
 
-    @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em){
-        background-image: linear-gradient(
-            to right bottom,
-            rgba($light-background-green, .8)),
-            rgba($dark-background-green, .8),
-            url(../img/hero.jpg);
-    }
+    @media (min-resolution: 192dpi) and (min-width: 37.5em),
+        (-webkit-min-device-pixel-ratio: 1) and (min-width: 37.5em),
+        (min-width: 125em){
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($light-background-green, .8)),
+                rgba($dark-background-green, .8),
+                url(../img/hero.jpg);
+        }
 
     @include respond(tab-port) {
         clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
