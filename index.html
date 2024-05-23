@@ -78,9 +78,24 @@
                     <div class="col">
                         <!-- Start of composition -->
                         <div class="composition">
-                            <img src="img/nat-1-large.jpg" alt="blue sky" class="composition__photo composition__photo--p1">
+                            <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                                src="img/nat-1-large.jpg" 
+                                alt="composition photo 1"
+                                class="composition__photo composition__photo--p1">
+                            <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                                src="img/nat-2-large.jpg" 
+                                alt="composition photo 2"
+                                class="composition__photo composition__photo--p2">
+                            <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                                src="img/nat-3-large.jpg" 
+                                alt="composition photo 3"
+                                class="composition__photo composition__photo--p3">
+                            <!-- <img src="img/nat-1-large.jpg" alt="blue sky" class="composition__photo composition__photo--p1">
                             <img src="img/nat-2-large.jpg" alt="people hiking a mountain" class="composition__photo composition__photo--p2">
-                            <img src="img/nat-3-large.jpg" alt="dog running in a park" class="composition__photo composition__photo--p3">
+                            <img src="img/nat-3-large.jpg" alt="dog running in a park" class="composition__photo composition__photo--p3"> -->
                         </div>
                         <!-- End of composition -->
                     </div>
@@ -380,9 +395,9 @@
             <!-- Start of footer logo -->
             <div class="footer__logo-box u-m-b-l">
                 <picture class="footer__logo">
-                    <source srcset="img/logo-green-small-1x.jpg 1x, img/logo-green-small-2x 2x"
+                    <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
                         media="(max-width: 37.5em)">
-                    <img srcset="img/logo-green-1x.png 1x img/logo-green-2x 2x" alt="Site logo" class="footer__logo">
+                    <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Site logo" src="img/logo-green-2x.png">
                 </picture>
             </div>
             <!-- End of footer logo -->
