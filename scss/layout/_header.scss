@@ -7,9 +7,14 @@
     ), url(/img/hero-small.jpg);
     background-size: cover;
     background-position: center;
-    min-block-size: 95vh;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    min-block-size: 85vh;
     position: relative;
+
+    @supports(clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+        block-size: 95vh;
+    }
 
     @media (min-resolution: 192dpi) and (min-width: 37.5em),
         (-webkit-min-device-pixel-ratio: 1) and (min-width: 37.5em),
