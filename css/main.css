@@ -392,6 +392,9 @@ body {
   padding-block-end: 2rem;
   padding-block-start: 2rem;
   transform: skewX(-12deg); }
+  @media (max-width: 37.5em) {
+    .story {
+      padding: 1rem; } }
   .story:hover .story__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }

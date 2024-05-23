@@ -10,6 +10,9 @@
     padding-block-start: 2rem;
     transform: skewX(-12deg);
 
+    @include respond (phone) {
+        padding: 1rem;
+    }
     &:hover &__caption {
         opacity:1;
         transform: translate(-50%, -50%);
