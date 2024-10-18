@@ -23,6 +23,6 @@ body {
 /* Start of header styles */
 .header {
     block-size: 95vh;
-    background-color: orange;
+    background-image: url(../img/hero.jpg);
 }
 /* End of header styles */
