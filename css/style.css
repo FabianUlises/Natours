@@ -24,5 +24,7 @@ body {
 .header {
     block-size: 95vh;
     background-image: url(../img/hero.jpg);
+    background-position: top;
+    background-size: cover;
 }
 /* End of header styles */
