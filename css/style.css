@@ -20,3 +20,9 @@ body {
     line-height: 1.7;
     color: #777;
 }
+/* Start of header styles */
+.header {
+    block-size: 95vh;
+    background-color: orange;
+}
+/* End of header styles */
