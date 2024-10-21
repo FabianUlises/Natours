@@ -51,8 +51,12 @@ body {
     font-weight: 400;
     letter-spacing: 35px;
 }
-.heading-pirmary-sub {
+.heading-primary-sub {
     display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+
 }
 /* End of header text */
 /* End of header styles */
