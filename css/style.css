@@ -41,6 +41,14 @@ body {
 }
 /* End of logo */
 /* Start of header text */
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* inline-size: max-content; */
+}
 .heading-primary {
     color: #fff;
     text-transform: uppercase;
