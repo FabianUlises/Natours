@@ -79,6 +79,7 @@ body {
     color: #fff;
     text-transform: uppercase;
     backface-visibility: hidden;
+    margin-block-end: 40px;
 }
 .heading-primary-main {
     display: block;
