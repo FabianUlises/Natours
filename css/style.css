@@ -55,6 +55,18 @@ body {
         opacity: 1;
     }
 }
+@keyframes moveInRight {
+    0% {
+        transform: translateX(100px);
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
 .text-box {
     position: absolute;
     top: 50%;
@@ -66,20 +78,21 @@ body {
 .heading-primary {
     color: #fff;
     text-transform: uppercase;
+    backface-visibility: hidden;
 }
 .heading-primary-main {
     display: block;
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 35px;
-    animation: moveInLeft 250ms ease;
+    animation: moveInLeft 250ms ease-out;
 }
 .heading-primary-sub {
     display: block;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 17.4px;
-
+    animation: moveInRight 250ms ease-out;
 }
 /* End of header text */
 /* End of header styles */
