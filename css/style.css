@@ -103,6 +103,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     padding: 15px 40px;
+    border-radius: 100px;
 }
 .btn-white {
     background-color: #fff;
