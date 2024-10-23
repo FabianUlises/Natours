@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+    "compile:sass": "sass scss/main.scss css/style.css -w"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "node-sass": "^9.0.0"
+    "sass": "^1.80.3"
   }
 }
