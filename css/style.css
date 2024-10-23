@@ -1,30 +1,3 @@
-/* 
-COLORS:
-Light green: #7ed56f
-Medium green: #55c57a
-Dark green: #28b485
- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.7;
-  color: #777;
-  padding: 9px;
-}
-
-/* Start of header styles */
-/* Heading animations */
 @keyframes moveInLeft {
   0% {
     transform: translateX(-100px);
@@ -60,31 +33,27 @@ body {
     transform: translateY(0);
   }
 }
-.header {
-  block-size: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
-  background-position: top;
-  background-size: cover;
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-  position: relative;
-  /* Start of logo */
-  /* End of logo */
-  /* Start of header text */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
-.header__logo-box {
-  position: absolute;
-  top: 40px;
-  left: 40px;
+
+html {
+  font-size: 62.5%;
 }
-.header__logo {
-  block-size: 35px;
+
+body {
+  box-sizing: border-box;
 }
-.header__text-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 9px;
 }
 
 .heading-primary {
@@ -108,8 +77,6 @@ body {
   animation: moveInRight 250ms ease-out;
 }
 
-/* End of header text */
-/* Start of header button */
 .btn::after {
   content: "";
   display: inline-block;
@@ -155,7 +122,31 @@ body {
   background-color: #fff;
 }
 
-/* End of header button */
-/* End of header styles */
+.header {
+  block-size: 95vh;
+  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  background-position: top;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  position: relative;
+  /* Start of logo */
+  /* End of logo */
+  /* Start of header text */
+}
+.header__logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.header__logo {
+  block-size: 35px;
+}
+.header__text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
