@@ -89,6 +89,19 @@ body {
   background-clip: text;
 }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+}
+.paragraph:not(:last-child) {
+  margin-block-end: 3rem;
+}
+
 .u-c-t {
   text-align: center;
 }
