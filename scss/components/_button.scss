@@ -45,3 +45,15 @@
         }
     }
 }
+// About section button
+.btn-text {
+    &:link,
+    &:visited {
+        font-size: 1.6rem;
+        color: $color-primary;
+        display: inline-block;
+        text-decoration: none;
+        border-block-end: 1px solid $color-primary;
+        padding: 3px;
+    }
+}

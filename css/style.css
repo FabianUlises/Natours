@@ -151,6 +151,15 @@ body {
   background-color: #fff;
 }
 
+.btn-text:link, .btn-text:visited {
+  font-size: 1.6rem;
+  color: #55c57a;
+  display: inline-block;
+  text-decoration: none;
+  border-block-end: 1px solid #55c57a;
+  padding: 3px;
+}
+
 .header {
   block-size: 95vh;
   background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
