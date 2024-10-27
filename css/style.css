@@ -258,6 +258,11 @@ body {
   gap: 3.2rem;
 }
 
+.section-about__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+}
+
 .section-about {
   padding: 34rem 0;
   margin-block-start: -24vh;

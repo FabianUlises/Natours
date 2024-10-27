@@ -1,0 +1,6 @@
+.section-about {
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    }
+}
