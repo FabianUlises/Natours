@@ -106,6 +106,10 @@ body {
   text-align: center;
 }
 
+.u-mb-l {
+  margin-block-end: 5.6rem;
+}
+
 .btn::after {
   content: "";
   display: inline-block;
