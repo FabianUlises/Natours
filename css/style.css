@@ -181,9 +181,9 @@ body {
 .composition__photo {
   inline-size: 55%;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-  border-radius: 0.8rem;
+  border-radius: 2px;
   position: absolute;
-  outline-offset: 2rem;
+  outline-offset: 0.8rem;
   transition: all 200ms;
 }
 .composition__photo--p1 {
@@ -199,7 +199,7 @@ body {
   top: 10rem;
 }
 .composition__photo:hover {
-  outline: 1.5rem solid #55c57a;
+  outline: 0.5rem solid #55c57a;
   transform: scale(1.05) translateY(-0.5rem);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 20;
@@ -265,7 +265,7 @@ body {
 .section-about__content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
-  gap: 4rem;
+  grid-gap: 10rem 2rem;
 }
 
 .section-about {
