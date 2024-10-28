@@ -272,6 +272,11 @@ body {
   padding: 34rem 2rem;
   margin-block-start: -24vh;
 }
+@media (max-width: 844px) {
+  .section-about {
+    padding-block-end: 45rem;
+  }
+}
 
 .section-features {
   padding: 20rem 4rem;
