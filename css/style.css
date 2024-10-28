@@ -209,6 +209,9 @@ body {
 }
 
 .feature-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
   padding: 2.5rem;
