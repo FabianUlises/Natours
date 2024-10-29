@@ -249,6 +249,7 @@ body {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform 550ms ease;
   backface-visibility: hidden;
+  overflow: hidden;
 }
 .tours-card__side--front {
   background-color: #fff;
@@ -296,6 +297,14 @@ body {
   position: absolute;
   top: 12rem;
   right: 2rem;
+}
+.tours-card__heading-span {
+  padding: 1rem 1.5rem;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.tours-card__heading-span--1 {
+  background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
 }
 
 .header {
