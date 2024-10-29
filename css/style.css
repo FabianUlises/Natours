@@ -272,6 +272,12 @@ body {
   grid-gap: 10rem 2rem;
 }
 
+.section-tours .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding-inline: 4rem;
+}
+
 .section-about {
   padding: 34rem 2rem;
   margin-block-start: -24vh;
