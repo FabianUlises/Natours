@@ -1,8 +1,32 @@
-.section-tours {
-    .card {
-        background-color: hsl(16, 82%, 55%);
+.tours-card {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+
+    &__side {
+        position: absolute;
+        top: 0;
+        left: 0;
         color: #fff;
         block-size: 50rem;
+        inline-size: 100%;
+        font-size: 2rem;
+        transition: transform 550ms ease;
+        backface-visibility: hidden;
+        
+        &--front {
+            background-color: purple;
+        }
+        &--back {
+            background-color: green;
+            transform: rotateY(180deg);
+        }
+    }
 
+    &:hover &__side--front {
+        transform: rotateY(180deg);
+    }
+    &:hover &__side--back {
+        transform: rotateY(0);
     }
 }

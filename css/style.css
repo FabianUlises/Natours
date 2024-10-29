@@ -233,10 +233,34 @@ body {
   transform: translateY(-1.5rem) scale(1.03);
 }
 
-.section-tours .card {
-  background-color: hsl(16, 82%, 55%);
+.tours-card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+}
+.tours-card__side {
+  position: absolute;
+  top: 0;
+  left: 0;
   color: #fff;
   block-size: 50rem;
+  inline-size: 100%;
+  font-size: 2rem;
+  transition: transform 550ms ease;
+  backface-visibility: hidden;
+}
+.tours-card__side--front {
+  background-color: purple;
+}
+.tours-card__side--back {
+  background-color: green;
+  transform: rotateY(180deg);
+}
+.tours-card:hover .tours-card__side--front {
+  transform: rotateY(180deg);
+}
+.tours-card:hover .tours-card__side--back {
+  transform: rotateY(0);
 }
 
 .header {
