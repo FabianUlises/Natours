@@ -11,6 +11,7 @@
     background-image: linear-gradient(to right bottom, rgba($color-primary-light, .8), rgba($color-primary-dark, .8)), url(../../img/nat-4.jpg);
     background-size: cover;
     transform: skewY(-7deg);
+    margin-block-end: -10rem;
 
     & > * {
         transform: skewY(7deg);
