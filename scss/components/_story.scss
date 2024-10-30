@@ -1,7 +1,27 @@
 .story {
-    inline-size: 75%;;
+    // display: grid;
+    // grid-template-rows: 1fr 1fr;
+    inline-size: 45%;
     margin: 0 auto;
     background-color: #fff;
+    font-size: 1.6rem;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
+    padding: 6rem;
+    padding-block-end: 12rem;
     border-radius: 3px;
+
+    &__shape {
+        inline-size: 15rem;
+        block-size: 15rem;
+        float: left;
+        shape-outside: circle(50% at 50% 50%);
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        // transform: transalteX(-3rem);
+        margin-inline-end: 2rem;
+    }
+
+    &__img {
+        block-size: 100%;
+    }
 }
