@@ -357,6 +357,14 @@ body {
   font-weight: 200;
 }
 
+.story {
+  inline-size: 75%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
 .header {
   block-size: 95vh;
   background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
@@ -430,6 +438,11 @@ body {
 }
 .section-tours .btn {
   margin-block-start: 10rem;
+}
+
+.section-stories {
+  background-color: #f8f8f8;
+  padding: 15rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */
