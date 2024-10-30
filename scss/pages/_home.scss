@@ -18,7 +18,10 @@
     }
 }
 .section-tours {
-    background-color: #ccc;
     padding: 38rem 0 50rem 0;
     margin-block-start: -13rem;
+
+    .btn {
+        margin-block-start: 10rem;
+    }
 }
