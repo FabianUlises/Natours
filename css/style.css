@@ -366,6 +366,10 @@ body {
   padding: 6rem;
   padding-block-end: 12rem;
   border-radius: 3px;
+  transform: skewX(-12deg);
+}
+.story > * {
+  transform: skewX(12deg);
 }
 .story__shape {
   inline-size: 15rem;

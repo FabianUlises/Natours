@@ -9,6 +9,11 @@
     padding: 6rem;
     padding-block-end: 12rem;
     border-radius: 3px;
+    transform: skewX(-12deg);
+
+    & > * {
+        transform: skewX(12deg);
+    }
 
     &__shape {
         inline-size: 15rem;
