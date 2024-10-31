@@ -488,4 +488,18 @@ body {
   padding: 15rem 0;
 }
 
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+}
+
+.book {
+  block-size: 50rem;
+  inline-size: 75%;
+  margin: 0 auto;
+  background-image: url(../img/nat-10.jpg);
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
 /*# sourceMappingURL=style.css.map */
