@@ -28,6 +28,7 @@
 
     &__img {
         block-size: 100%;
+        backface-visibility: hidden;
     }
     &__caption {
         position: absolute;
@@ -39,5 +40,11 @@
         font-size: 1.7rem;
         text-align: center;
         opacity: 0;
+        transition: all 250ms ease;
+        backface-visibility: hidden;
+    }
+    &:hover &__caption {
+        opacity: 1;
+        transform: translate(-50%, -50%);
     }
 }
