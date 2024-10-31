@@ -29,6 +29,8 @@
     &__img {
         block-size: 100%;
         backface-visibility: hidden;
+        transform: scale(1.125);
+        transition: all 200ms ease;
     }
     &__caption {
         position: absolute;
@@ -46,5 +48,10 @@
     &:hover &__caption {
         opacity: 1;
         transform: translate(-50%, -50%);
+    }
+
+    &:hover &__img {
+        transform: scale(.98);
+        filter: blur(3px) brightness(75%);
     }
 }

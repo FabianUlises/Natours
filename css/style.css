@@ -383,6 +383,8 @@ body {
 .story__img {
   block-size: 100%;
   backface-visibility: hidden;
+  transform: scale(1.125);
+  transition: all 200ms ease;
 }
 .story__caption {
   position: absolute;
@@ -400,6 +402,10 @@ body {
 .story:hover .story__caption {
   opacity: 1;
   transform: translate(-50%, -50%);
+}
+.story:hover .story__img {
+  transform: scale(0.98);
+  filter: blur(3px) brightness(75%);
 }
 
 .header {
