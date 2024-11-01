@@ -537,8 +537,55 @@ body {
 
 .footer {
   background-color: #333;
-  padding: 10rem 0;
+  color: #f7f7f7;
   font-size: 1.4rem;
+  padding: 10rem 0;
+}
+.footer .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 3.2rem;
+  align-items: center;
+}
+.footer__logo-box {
+  text-align: center;
+  margin-block-end: 3rem;
+}
+.footer__logo {
+  inline-size: 15rem;
+  block-size: auto;
+}
+.footer__navigation {
+  border-block-start: 1px solid #777;
+  padding-block-start: 2rem;
+  display: inline-block;
+}
+.footer__list {
+  list-style: none;
+}
+.footer__item {
+  display: inline-block;
+}
+.footer__item:not(:last-child) {
+  margin-inline-end: 1.5rem;
+}
+.footer__link, .footer:link, .footer:visited {
+  color: #f7f7f7;
+  background-color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: all 200ms ease;
+}
+.footer:hover, .footer:active {
+  color: #55c57a;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  transform: rotate(1.2deg) scale(1.125);
+}
+.footer__copyright {
+  padding-top: 2rem;
+  border-block-start: 1px solid #777;
 }
 
 .section-about {
