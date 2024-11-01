@@ -52,15 +52,16 @@
         text-decoration: none;
         text-transform: uppercase;
         display: inline-block;
-        transition: all 200ms ease;;
+        transition: all 200ms ease;
+
+        &:hover,
+        &:active {
+            color: $color-grey-light-1;
+            box-shadow: 0 1rem 2rem rgba($color-black, .4);
+            transform: rotate(1.2deg) scale(1.125);
+        }
     }
 
-    &:hover,
-    &:active {
-        color: $color-primary;
-        box-shadow: 0 1rem 2rem rgba($color-black, .4);
-        transform: rotate(1.2deg) scale(1.125);
-    }
 
     &__copyright {
         padding-top: 2rem;
