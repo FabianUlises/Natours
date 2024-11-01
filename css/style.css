@@ -535,6 +535,12 @@ body {
   padding-inline: 4rem;
 }
 
+.footer {
+  background-color: #777;
+  padding: 10rem 0;
+  font-size: 1.4rem;
+}
+
 .section-about {
   padding: 34rem 2rem;
   margin-block-start: -24vh;
