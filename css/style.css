@@ -544,9 +544,7 @@ body {
 .footer .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
   gap: 3.2rem;
-  align-items: center;
 }
 .footer__logo-box {
   text-align: center;
@@ -557,6 +555,7 @@ body {
   block-size: auto;
 }
 .footer__navigation {
+  inline-size: 100%;
   border-block-start: 1px solid #777;
   padding-block-start: 2rem;
   display: inline-block;
@@ -586,6 +585,7 @@ body {
 .footer__copyright {
   padding-top: 2rem;
   border-block-start: 1px solid #777;
+  text-align: center;
 }
 
 .section-about {
